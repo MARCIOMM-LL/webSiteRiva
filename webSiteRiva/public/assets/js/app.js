@@ -12,7 +12,7 @@ $container.find('a').on('click',function(e){
     console.log($link.data('like'));
 
     $.ajax({
-       url: '/messages/12/like/like' + $link.data('like'),
+       url: '/messages/12/like/' + $link.data('like'),
        method: 'POST'
     }).then(function (response){
         console.log(response.likes);
