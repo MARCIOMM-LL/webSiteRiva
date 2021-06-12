@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f56d0173-d739-44bf-8b2f-a4faccdf4f8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/SubscriberController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/subscriber/form.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/images/image1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SubscriberController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SubscriberController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Subscriber.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Subscriber.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/SubscriberFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/SubscriberFormType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mamiferos/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mamiferos/homepage.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mamiferos/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mamiferos/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/subscriber/form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/subscriber/form.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +219,7 @@
       <workItem from="1623450291293" duration="9264000" />
       <workItem from="1623503116391" duration="595000" />
       <workItem from="1623506357888" duration="2551000" />
-      <workItem from="1623509754056" duration="15015000" />
+      <workItem from="1623509754056" duration="18373000" />
     </task>
     <servers />
   </component>

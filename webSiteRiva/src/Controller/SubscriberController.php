@@ -29,7 +29,7 @@ class SubscriberController extends AbstractController
 
             $entityManager->persist($subscriber);
             $entityManager->flush();
-            return new Response('Assinante número ' . $subscriber->getId() . ' criado...');
+            return new Response('Assinante número ' . $subscriber->getId() . ' criado com sucesso.');
         }
 
         return $this->render('subscriber/form.html.twig', [
