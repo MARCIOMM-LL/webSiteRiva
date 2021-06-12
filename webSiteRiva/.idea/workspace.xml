@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f56d0173-d739-44bf-8b2f-a4faccdf4f8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MamiferoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MamiferoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MessagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MessagesController.php" afterDir="false" />
-    </list>
+    <list default="true" id="f56d0173-d739-44bf-8b2f-a4faccdf4f8b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,18 +155,24 @@
       <path value="$PROJECT_DIR$/vendor/psr/log" />
       <path value="$PROJECT_DIR$/vendor/psr/link" />
       <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1tj0TFk1FRScytIGgnKXJJrfQdR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Controller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -179,10 +180,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\webSiteRiva\webSiteRiva\public\assets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\webSiteRiva\webSiteRiva\src\Controller" />
     </key>
@@ -204,25 +208,31 @@
       <workItem from="1623267200326" duration="3495000" />
       <workItem from="1623324946048" duration="21067000" />
       <workItem from="1623403685686" duration="7147000" />
-      <workItem from="1623433860207" duration="1524000" />
+      <workItem from="1623433860207" duration="3467000" />
+      <workItem from="1623450291293" duration="9264000" />
+      <workItem from="1623503116391" duration="595000" />
+      <workItem from="1623506357888" duration="2551000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1623323461979">
+    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1623450243344">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1623323461979" />
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1623450243344" />
     <state x="0" y="174" key="NewPhpClassDialog" timestamp="1623340686299">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="174" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1623340686299" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1623325118576">
+    <state x="184" y="9" key="SettingsEditor" timestamp="1623508504288">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1623325118576" />
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1623508504288" />
   </component>
 </project>

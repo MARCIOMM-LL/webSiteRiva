@@ -1,0 +1,21 @@
+@import "~bootstrap";
+body {
+    background-size: 100%;
+    background-position: center;
+    /* adicionando imagem de fundo */
+    background: url("images/image1.jpg");
+}
+
+h1{
+    color: blue;
+}
+
+.carousel-item{
+    background-color: black;
+}
+
+.carousel-item img{
+    height: auto;
+    opacity: 0.3;
+}
+
