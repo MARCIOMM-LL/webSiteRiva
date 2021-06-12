@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Form{% endblock %}
+
+{% block body %}
+
+    <br>
+    <br>
+    <br>
+    {#
+    <form>
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" class="form-control" id="nome" placeholder="Nome">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="E-mail">
+            <label for="telefone">Telefone/Telemóvel:</label>
+            <input type="tel" class="form-control" id="telefone" placeholder="Telefone/Telemóvel">
+
+            <div class="form-group">
+                <label for="texto">O seu pedido:</label>
+                <textarea class="form-control" id="text" rows="3"></textarea>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary mb-2">Submeter</button>
+        </div>
+    </form>
+    #}
+
+    {{ form(subscriber_form) }}
+
+{% endblock %}
