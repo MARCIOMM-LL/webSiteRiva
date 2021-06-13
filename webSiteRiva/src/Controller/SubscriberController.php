@@ -14,6 +14,19 @@ use Twig\Environment;
 class SubscriberController extends AbstractController
 {
     /**
+     * @Route("/view", name="app_view")
+     */
+    public function view(): Response
+    {
+        $repository = $this->getDoctrine()->getRepository(Subscriber::class);
+        $users = $repository->findAll();
+
+        return $this->render('mamiferos/view.html.twig', [
+            'users' => $users
+        ]);
+    }
+
+    /**
      * @Route("/subscriber", name="app_subscriber")
      */
     public function form(Environment $twig, Request $request, EntityManagerInterface $entityManager): Response
@@ -29,12 +42,14 @@ class SubscriberController extends AbstractController
 
             $entityManager->persist($subscriber);
             $entityManager->flush();
-            $this->addFlash('exito', 'Registo realizado com sucesso.');
-            return $this->redirectToRoute('app_subscriber');
+            //$this->addFlash('exito', 'Registo efetuado com sucesso.');
+            return $this->redirectToRoute('app_home_page');
         }
 
         return $this->render('subscriber/form.html.twig', [
-            'subscriber_form' => $form->createView()
+            'form' => $form->createView()
         ]);
     }
+
+
 }

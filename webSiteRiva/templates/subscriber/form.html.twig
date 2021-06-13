@@ -49,7 +49,14 @@
     </form>
     #}
 
-    {{ form(subscriber_form) }}
+    <h1 style="color:black;text-align:center;">Criação de um artigo!</h1><br><br>
+
+    {{ form_start(form) }}
+        {{ form_row(form.nome) }}
+        {{ form_row(form.email) }}
+        {{ form_row(form.telefone) }}
+        {{ form_row(form.mensagem) }}
+    {{ form_end(form) }}
 
     {% for message in app.flashes('exito') %}
         <div class="alert alert-notice">

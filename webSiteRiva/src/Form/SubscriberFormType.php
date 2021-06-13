@@ -19,22 +19,26 @@ class SubscriberFormType extends AbstractType
         $builder
             ->add('nome', TextType::class, [
                 'attr' => [
-                    'placeholder' => 'Digite o seu nome'
+                    'placeholder' => 'Digite o seu nome',
+                    'class' => 'form-control'
                 ]
             ])
             ->add('email', EmailType::class, [
                 'attr' => [
-                    'placeholder' => 'Digite o seu e-mail'
+                    'placeholder' => 'Digite o seu e-mail',
+                    'class' => 'form-control'
                 ]
             ])
             ->add('telefone', TextType::class, [
                 'attr' => [
-                    'placeholder' => 'Digite o seu telefone'
+                    'placeholder' => 'Digite o seu telefone',
+                    'class' => 'form-control'
                 ]
             ])
             ->add('mensagem', TextareaType::class, [
                 'attr' => [
-                    'placeholder' => 'Escreva a sua mensagem'
+                    'placeholder' => 'Escreva a sua mensagem',
+                    'class' => 'form-control'
                 ]
             ])
             ->add('agreeTerms', CheckboxType::class, ['mapped' => false, 'required' => false])
