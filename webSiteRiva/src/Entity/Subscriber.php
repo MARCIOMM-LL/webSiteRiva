@@ -39,7 +39,7 @@ class Subscriber
     /**
      * @ORM\Column(type="text", length=255, nullable=true)
      */
-    private $message;
+    private $mensagem;
 
     public function getId(): ?int
     {
@@ -82,14 +82,14 @@ class Subscriber
         return $this;
     }
 
-    public function getMessage(): ?string
+    public function getMensagem(): ?string
     {
-        return $this->message;
+        return $this->mensagem;
     }
 
-    public function setMessage(string $message): self
+    public function setMensagem(string $mensagem): self
     {
-        $this->message = $message;
+        $this->mensagem = $mensagem;
 
         return $this;
     }
