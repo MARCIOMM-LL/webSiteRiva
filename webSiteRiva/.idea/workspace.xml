@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f56d0173-d739-44bf-8b2f-a4faccdf4f8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/mamiferos/carousel.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/SubscriberController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SubscriberController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Subscriber.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Subscriber.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MamiferoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MamiferoController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/mamiferos/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mamiferos/homepage.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/subscriber/form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/subscriber/form.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -178,7 +180,8 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/mamiferos" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -190,11 +193,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\webSiteRiva\webSiteRiva\templates\mamiferos" />
+      <recent name="C:\webSiteRiva\webSiteRiva\src\Controller" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\webSiteRiva\webSiteRiva\public\assets" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\webSiteRiva\webSiteRiva\src\Controller" />
     </key>
   </component>
   <component name="RunManager">
@@ -219,7 +223,7 @@
       <workItem from="1623503116391" duration="595000" />
       <workItem from="1623506357888" duration="2551000" />
       <workItem from="1623509754056" duration="18568000" />
-      <workItem from="1623585842964" duration="2256000" />
+      <workItem from="1623585842964" duration="5793000" />
     </task>
     <servers />
   </component>
@@ -234,6 +238,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1623513853695" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623590220692">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1623590220692" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1623450243344">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -246,5 +254,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1623508504288" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1623590447417">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1623590447417" />
   </component>
 </project>

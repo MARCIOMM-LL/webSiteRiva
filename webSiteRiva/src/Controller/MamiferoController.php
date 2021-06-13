@@ -40,4 +40,13 @@ class MamiferoController extends AbstractController
         ]);
 
     }
+
+    /**
+     * @Route("/carousel", name="app_carousel")
+     */
+    public function carousel(Environment $twigEnvironment)
+    {
+        $html = $twigEnvironment->render('mamiferos/carousel.html.twig');
+        return new Response($html);
+    }
 }

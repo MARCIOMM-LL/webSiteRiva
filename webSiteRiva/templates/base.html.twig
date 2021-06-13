@@ -10,10 +10,6 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
 
-    <link rel="stylesheet" href="{{ asset('/assets/css/app.css') }}">
-    <link rel="stylesheet" href="{{ asset('/assets/css/carousel.css') }}">
-    <link rel="icon" href="{{ asset('/assets/images/riva1.jfif') }}" sizes="32x32">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
@@ -58,7 +54,7 @@
 <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="">Carousel</a>
+            <a class="navbar-brand" href="{{ path('app_carousel') }}">Carousel</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -66,12 +62,6 @@
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{{ path('app_home_page') }}">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="" tabindex="-1" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
                 <form class="d-flex">
