@@ -32,7 +32,7 @@ class Subscriber
     private $email;
 
     /**
-     * @ORM\Column(type="text", nullable=true)
+     * @ORM\Column(type="string", nullable=true)
      */
     private $telefone;
 

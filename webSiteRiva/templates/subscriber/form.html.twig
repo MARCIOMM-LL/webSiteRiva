@@ -55,8 +55,12 @@
     </form>
     #}
 
+    {% for message in app.flashes('exito') %}
+        <div class="alert alert-notice">
+            {{ message }}
+        </div>
+    {% endfor %}
+
     {{ form(subscriber_form) }}
-
-
 
 {% endblock %}

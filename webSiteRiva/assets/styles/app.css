@@ -1,9 +1,6 @@
 @import "~bootstrap";
 body {
-    background-size: 100%;
-    background-position: center;
-    /* adicionando imagem de fundo */
-    background: url("");
+
 }
 
 h1{
