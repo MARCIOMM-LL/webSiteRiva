@@ -19,10 +19,10 @@ class SubscriberController extends AbstractController
     public function view(): Response
     {
         $repository = $this->getDoctrine()->getRepository(Subscriber::class);
-        $users = $repository->findAll();
+        $articles = $repository->findAll();
 
-        return $this->render('mamiferos/view.html.twig', [
-            'users' => $users
+        return $this->render('articles/view.html.twig', [
+            'articles' => $articles
         ]);
     }
 

@@ -41,6 +41,11 @@ class Subscriber
      */
     private $mensagem;
 
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $localidade;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -92,5 +97,21 @@ class Subscriber
         $this->mensagem = $mensagem;
 
         return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getLocalidade()
+    {
+        return $this->localidade;
+    }
+
+    /**
+     * @param mixed $localidade
+     */
+    public function setLocalidade($localidade): void
+    {
+        $this->localidade = $localidade;
     }
 }

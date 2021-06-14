@@ -2,13 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f56d0173-d739-44bf-8b2f-a4faccdf4f8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/mamiferos/view.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/armario.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/borracha.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cadeira.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cat.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/city.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/descontos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/fox.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/furao.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/instalacoes1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/lapiseira.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/new.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/paris.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/riva.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/secretaria.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/sp.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/controllers.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20210613175333.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20210614162313.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MamiferoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticlesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/SubscriberController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SubscriberController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Subscriber.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Subscriber.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/SubscriberFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/SubscriberFormType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mamiferos/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mamiferos/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/subscriber/form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/subscriber/form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mamiferos/carousel.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/articles/carousel.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mamiferos/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/articles/homepage.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mamiferos/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/articles/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mamiferos/view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/articles/view.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +42,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -177,6 +204,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -193,12 +221,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\webSiteRiva\webSiteRiva\public\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\webSiteRiva\webSiteRiva\templates\mamiferos" />
       <recent name="C:\webSiteRiva\webSiteRiva\src\Controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\webSiteRiva\webSiteRiva\assets\controllers" />
+      <recent name="C:\webSiteRiva\webSiteRiva\public\assets" />
     </key>
   </component>
   <component name="RunManager">
@@ -226,39 +255,25 @@
       <workItem from="1623585842964" duration="8698000" />
       <workItem from="1623601621731" duration="4223000" />
       <workItem from="1623608369668" duration="8130000" />
+      <workItem from="1623662137717" duration="16542000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623513853695">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1623513853695" />
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623590220692">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1623590220692" />
-    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1623450243344">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1623450243344" />
-    <state x="0" y="174" key="NewPhpClassDialog" timestamp="1623340686299">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="0" y="174" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1623340686299" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1623508504288">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1623508504288" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1623616155177">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1623616155177" />
   </component>
 </project>

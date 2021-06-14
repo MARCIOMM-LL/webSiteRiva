@@ -1,0 +1,113 @@
+body {
+
+}
+
+h1{
+    color: blue;
+}
+
+.carousel-item{
+    background-color: black;
+}
+
+.carousel-item img{
+    height: auto;
+    opacity: 0.3;
+}
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+}
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9hc3NldHMvc3R5bGVzL2FwcC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0E7O0FBRUE7O0FBRUE7SUFDSSxXQUFXO0FBQ2Y7O0FBRUE7SUFDSSx1QkFBdUI7QUFDM0I7O0FBRUE7SUFDSSxZQUFZO0lBQ1osWUFBWTtBQUNoQjs7O0FBR0E7b0RBQ29EO0FBQ3BELG1EQUFtRDs7QUFFbkQ7SUFDSSxpQkFBaUI7SUFDakIsb0JBQW9CO0lBQ3BCLGNBQWM7QUFDbEI7OztBQUdBO29EQUNvRDs7QUFFcEQsd0JBQXdCO0FBQ3hCO0lBQ0ksbUJBQW1CO0FBQ3ZCO0FBQ0EsaUVBQWlFO0FBQ2pFO0lBQ0ksWUFBWTtJQUNaLFdBQVc7QUFDZjs7QUFFQSwwREFBMEQ7QUFDMUQ7SUFDSSxhQUFhO0FBQ2pCO0FBQ0E7SUFDSSxrQkFBa0I7SUFDbEIsTUFBTTtJQUNOLE9BQU87SUFDUCxlQUFlO0lBQ2YsYUFBYTtBQUNqQjs7O0FBR0E7b0RBQ29EOztBQUVwRCxzRUFBc0U7QUFDdEU7SUFDSSxxQkFBcUI7SUFDckIsa0JBQWtCO0FBQ3RCO0FBQ0E7SUFDSSxnQkFBZ0I7QUFDcEI7QUFDQSxxQkFBcUI7QUFDckI7SUFDSSxvQkFBb0I7SUFDcEIsbUJBQW1CO0FBQ3ZCO0FBQ0EsbUJBQW1COzs7QUFHbkI7MkJBQzJCOztBQUUzQjtJQUNJLGNBQWMsRUFBRSxzQ0FBc0M7QUFDMUQ7O0FBRUEsb0NBQW9DO0FBQ3BDO0lBQ0ksZ0JBQWdCO0lBQ2hCLGNBQWM7SUFDZCxlQUFlO0lBQ2YsdUJBQXVCO0FBQzNCOzs7QUFHQTtvREFDb0Q7O0FBRXBEO0lBQ0kscUNBQXFDO0lBQ3JDO1FBQ0ksc0JBQXNCO1FBQ3RCLGtCQUFrQjtRQUNsQixnQkFBZ0I7SUFDcEI7O0lBRUE7UUFDSSxlQUFlO0lBQ25CO0FBQ0o7O0FBRUE7SUFDSTtRQUNJLGdCQUFnQjtJQUNwQjtBQUNKLEMiLCJmaWxlIjoiYXBwLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgXCJ+Ym9vdHN0cmFwXCI7XHJcbmJvZHkge1xyXG5cclxufVxyXG5cclxuaDF7XHJcbiAgICBjb2xvcjogYmx1ZTtcclxufVxyXG5cclxuLmNhcm91c2VsLWl0ZW17XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxufVxyXG5cclxuLmNhcm91c2VsLWl0ZW0gaW1ne1xyXG4gICAgaGVpZ2h0OiBhdXRvO1xyXG4gICAgb3BhY2l0eTogMC4zO1xyXG59XHJcblxyXG5cclxuLyogR0xPQkFMIFNUWUxFU1xyXG4tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAqL1xyXG4vKiBQYWRkaW5nIGJlbG93IHRoZSBmb290ZXIgYW5kIGxpZ2h0ZXIgYm9keSB0ZXh0ICovXHJcblxyXG5ib2R5IHtcclxuICAgIHBhZGRpbmctdG9wOiAzcmVtO1xyXG4gICAgcGFkZGluZy1ib3R0b206IDNyZW07XHJcbiAgICBjb2xvcjogIzVhNWE1YTtcclxufVxyXG5cclxuXHJcbi8qIENVU1RPTUlaRSBUSEUgQ0FST1VTRUxcclxuLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gKi9cclxuXHJcbi8qIENhcm91c2VsIGJhc2UgY2xhc3MgKi9cclxuLmNhcm91c2VsIHtcclxuICAgIG1hcmdpbi1ib3R0b206IDRyZW07XHJcbn1cclxuLyogU2luY2UgcG9zaXRpb25pbmcgdGhlIGltYWdlLCB3ZSBuZWVkIHRvIGhlbHAgb3V0IHRoZSBjYXB0aW9uICovXHJcbi5jYXJvdXNlbC1jYXB0aW9uIHtcclxuICAgIGJvdHRvbTogM3JlbTtcclxuICAgIHotaW5kZXg6IDEwO1xyXG59XHJcblxyXG4vKiBEZWNsYXJlIGhlaWdodHMgYmVjYXVzZSBvZiBwb3NpdGlvbmluZyBvZiBpbWcgZWxlbWVudCAqL1xyXG4uY2Fyb3VzZWwtaXRlbSB7XHJcbiAgICBoZWlnaHQ6IDMycmVtO1xyXG59XHJcbi5jYXJvdXNlbC1pdGVtID4gaW1nIHtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogMDtcclxuICAgIGxlZnQ6IDA7XHJcbiAgICBtaW4td2lkdGg6IDEwMCU7XHJcbiAgICBoZWlnaHQ6IDMycmVtO1xyXG59XHJcblxyXG5cclxuLyogTUFSS0VUSU5HIENPTlRFTlRcclxuLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gKi9cclxuXHJcbi8qIENlbnRlciBhbGlnbiB0aGUgdGV4dCB3aXRoaW4gdGhlIHRocmVlIGNvbHVtbnMgYmVsb3cgdGhlIGNhcm91c2VsICovXHJcbi5tYXJrZXRpbmcgLmNvbC1sZy00IHtcclxuICAgIG1hcmdpbi1ib3R0b206IDEuNXJlbTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG4ubWFya2V0aW5nIGgyIHtcclxuICAgIGZvbnQtd2VpZ2h0OiA0MDA7XHJcbn1cclxuLyogcnRsOmJlZ2luOmlnbm9yZSAqL1xyXG4ubWFya2V0aW5nIC5jb2wtbGctNCBwIHtcclxuICAgIG1hcmdpbi1yaWdodDogLjc1cmVtO1xyXG4gICAgbWFyZ2luLWxlZnQ6IC43NXJlbTtcclxufVxyXG4vKiBydGw6ZW5kOmlnbm9yZSAqL1xyXG5cclxuXHJcbi8qIEZlYXR1cmV0dGVzXHJcbi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gKi9cclxuXHJcbi5mZWF0dXJldHRlLWRpdmlkZXIge1xyXG4gICAgbWFyZ2luOiA1cmVtIDA7IC8qIFNwYWNlIG91dCB0aGUgQm9vdHN0cmFwIDxocj4gbW9yZSAqL1xyXG59XHJcblxyXG4vKiBUaGluIG91dCB0aGUgbWFya2V0aW5nIGhlYWRpbmdzICovXHJcbi5mZWF0dXJldHRlLWhlYWRpbmcge1xyXG4gICAgZm9udC13ZWlnaHQ6IDMwMDtcclxuICAgIGxpbmUtaGVpZ2h0OiAxO1xyXG4gICAgLyogcnRsOnJlbW92ZSAqL1xyXG4gICAgbGV0dGVyLXNwYWNpbmc6IC0uMDVyZW07XHJcbn1cclxuXHJcblxyXG4vKiBSRVNQT05TSVZFIENTU1xyXG4tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAqL1xyXG5cclxuQG1lZGlhIChtaW4td2lkdGg6IDQwZW0pIHtcclxuICAgIC8qIEJ1bXAgdXAgc2l6ZSBvZiBjYXJvdXNlbCBjb250ZW50ICovXHJcbiAgICAuY2Fyb3VzZWwtY2FwdGlvbiBwIHtcclxuICAgICAgICBtYXJnaW4tYm90dG9tOiAxLjI1cmVtO1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMS4yNXJlbTtcclxuICAgICAgICBsaW5lLWhlaWdodDogMS40O1xyXG4gICAgfVxyXG5cclxuICAgIC5mZWF0dXJldHRlLWhlYWRpbmcge1xyXG4gICAgICAgIGZvbnQtc2l6ZTogNTBweDtcclxuICAgIH1cclxufVxyXG5cclxuQG1lZGlhIChtaW4td2lkdGg6IDYyZW0pIHtcclxuICAgIC5mZWF0dXJldHRlLWhlYWRpbmcge1xyXG4gICAgICAgIG1hcmdpbi10b3A6IDdyZW07XHJcbiAgICB9XHJcbn0iXSwic291cmNlUm9vdCI6IiJ9*/

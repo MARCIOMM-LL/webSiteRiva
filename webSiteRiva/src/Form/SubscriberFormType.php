@@ -35,6 +35,12 @@ class SubscriberFormType extends AbstractType
                     'class' => 'form-control'
                 ]
             ])
+            ->add('localidade', TextType::class, [
+                'attr' => [
+                    'placeholder' => 'Localidae',
+                    'class' => 'form-control'
+                ]
+            ])
             ->add('mensagem', TextareaType::class, [
                 'attr' => [
                     'placeholder' => 'Escreva a sua mensagem',
